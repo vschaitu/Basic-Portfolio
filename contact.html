@@ -10,32 +10,33 @@
  <!--   <script src="main.js"></script> -->
 </head>
 <body>
+    <!-- Header  contains Name & other tabs -->
     <header class="clearfix">
-        <div class="div1">
-            <h1 class="name">Srichaitanya Vanapalli</h1>
+        <div class="name">
+            <h1>Srichaitanya Vanapalli</h1>
         </div>
-        <div class="div2">
-            <a href="#">About |</a>
-            <a href="#">Portfolio |</a>
-            <a href="#">Contact</a>
+        <div class="tabs">
+            <a href="index.html">About |</a>
+            <a href="portfolio.html">Portfolio |</a>
+            <a href="contact.html">Contact</a>
         </div>
     </header>
+    <!-- This section contains the "conact" and Form -->
     <section>
-        <div class="div0">
+        <div class="content">
             <h1 class="fmt1">Contact</h1>
-            <div class="div3"> 
-                <form>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name"></input>
-                    <label for="email">E-mail</label>
-                    <input type="text" id="email" name="email"></input>
-                    <label for="comments">Comments</label>
-                    <textarea id="comments" name="comments"></textarea>
-                    <input type="submit" value="Submit">
-                </form>
-            </div>  
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name"></input>
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email"></input>
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments" placeholder="Enter your comments here..."></textarea>
+                <input type="submit" id="submit" value="Submit">
+            </form>
         </div>
     </section>
+    <!-- Footer section - Copyright -->
     <footer>
         <p>Copyright &#9400</p>
     </footer>
